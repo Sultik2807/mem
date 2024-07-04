@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 200px; /*Высота Блока*/
+    background-color: rgb(0, 221, 37); /*Цвет фона*/
+    color: black; /*Цвет текста*/
+    text-align: left; /*Выравание текста*/
+    font-size: 25px; /*Размер текста*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 5px 20px red;
+
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/031/003/cover3.jpg);
+    background-size: 495px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
+    height: 800px;
+    background-color: rgb(105, 105, 105); /*Цвет фона*/
+    font-size: 30px; /*Размер текста*/
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.left{
+    width: 50%;
+    font-size: 25px;
+}
+
+.right{
+    width: 50%;
+}
+
+footer{
+    font-size: 25px;
+    background-image: url(https://www.i2symbol.com/pictures/emojis/c/4/5/8/c4585f90987032bfec956f446f754968.png);
+    height: 460px;
+    background-repeat: no-repeat
+}
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
